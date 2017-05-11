@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta content="text/html;charset=utf-8" http-equiv="Content-Type" />
+	<meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" name="viewport" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,Chrome=1" />
+	<meta name="renderer" content="webkit" />
+	<title>文本提交表单</title>
+
+	<link rel="stylesheet" type="text/css" href="bootstrap.css" />
+	<link href="common.css" rel="stylesheet" type="text/css" />
+	
+	<script type="text/javascript">
+		// var _2F1704927BC8EDE59AA5D2983313E0C2 = "dfd569c0319ce399727e94f976a32abd";
+		// var G_POST_HASH = _2F1704927BC8EDE59AA5D2983313E0C2;
+		// var G_INDEX_SCRIPT = "?/";
+		// var G_SITE_NAME = "Amaze UI官方社区";
+		// var G_BASE_URL = "http://ask.amazeui.org/?";
+		// var G_STATIC_URL = "http://ask.amazeui.org/static";
+		// var G_UPLOAD_URL = "http://ask.amazeui.org/uploads";
+		// var G_USER_ID = "4321";
+		// var G_USER_NAME = "姚琪林";
+		// var G_UPLOAD_ENABLE = "Y";
+		// var G_UNREAD_NOTIFICATION = 0;
+		// var G_NOTIFICATION_INTERVAL = 100000;
+		// var G_CAN_CREATE_TOPIC = "1";
+		var G_ADVANCED_EDITOR_ENABLE = "Y";
+	</script>
+	<script src="jquery.js" type="text/javascript"></script>
+	<script src="http://ask.amazeui.org/static/js/aws.js?v=201502277" type="text/javascript"></script>
+	<script src="http://ask.amazeui.org/static/js/editor/ckeditor/ckeditor.js?v=201502277" type="text/javascript"></script>
+</head>
+
+<body>
+	<div class="aw-container-wrap">
+		<div class="container">
+			<div class="row">
+				<div class="aw-content-wrap clearfix">
+					<div class="col-sm-12 col-md-9 aw-main-content">
+						<!-- 回复编辑器 -->
+						<div class="aw-mod aw-replay-box question">
+							<a name="answer_form"></a>
+							<form action="" onsubmit="return false;" method="post" id="answer_form"
+							 class="question_answer_form">
+								<input type="hidden" name="post_hash" value="dfd569c0319ce399727e94f976a32abd" />
+								<input type="hidden" name="question_id" value="1467" />
+								<input type="hidden" name="attach_access_key" value="2a5864ae48361558ef8ffc91aa058e57" />
+								<div class="mod-head">
+									<a href="" class="aw-user-name"><img alt="" src="" /></a>
+									<p>
+										<label class="pull-right">
+									<input type="checkbox" value="1" name="anonymous" /> 匿名回复
+										</label>
+										<label class="pull-right">
+									<input type="checkbox" checked="checked" value="1" name="auto_focus" /> 关注问题
+										</label>
+										<label class="pull-right">
+									<a href="" target="_blank">积分规则</a>
+										</label> 姚琪林 </p>
+								</div>
+								<div class="mod-body">
+									<div class="aw-mod aw-editor-box">
+										<div class="mod-head">
+											<div class="wmd-panel">
+												<textarea class="wmd-input form-control autosize editor" id="wmd-input" rows="15" name="answer_content">&lt;p style=&quot;text-align: justify;&quot;&gt;&lt;s&gt;&lt;strong&gt;rtyhjrtj&lt;/strong&gt;&lt;/s&gt;&lt;/p&gt;</textarea>
+											</div>
+										</div>
+										<div class="mod-body clearfix">
+											<a href="javascript:;" onclick="AWS.ajax_post($('#answer_form'), AWS.ajax_processer, 'reply_question');" class="btn btn-normal btn-success pull-right btn-reply">回复</a>
+											<span class="pull-right text-color-999" id="answer_content_message">&nbsp;</span>
+											<div class="aw-upload-box">
+												<a class="btn btn-default">上传附件</a>
+												<div class="upload-container"></div>
+												<span class="text-color-999 aw-upload-tips hidden-xs">允许 : jpg,jpeg,png,gif,zip,doc,docx,rar,pdf,psd</span>
+											</div>
+										</div>
+									</div>
+
+								</div>
+							</form>
+						</div>
+						<!-- end 回复编辑器 -->
+					</div>
+
+
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<script type="text/javascript">
+		// var ATTACH_ACCESS_KEY = '2a5864ae48361558ef8ffc91aa058e57';
+		// var COMMENT_UNFOLD = 'all';
+		// var QUESTION_ID = 1467;
+		// var UNINTERESTED_COUNT = 5;
+		// var ANSWER_EDIT_TIME = 1000;
+		// var USER_ANSWERED = '';
+		// var UPLOAD_ENABLE = 'Y';
+		// var ANSWER_TYPE = 'answer';
+		var ITEM_IDS = '';
+	</script>
+
+	<script type="text/javascript" src="detail.js"></script>
+
+</body>
+
+</html>
